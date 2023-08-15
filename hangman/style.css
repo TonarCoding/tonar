@@ -242,3 +242,25 @@
     border: 1px solid #CCC;
     color: #FFF;
   }
+  @media(max-width:600px ){
+    .container{
+      width: 360px;
+    }
+    .letters{
+      padding: 0px;
+    }
+    .letters .letter-box{
+      margin-right: 5px;
+      margin-bottom: 5px;
+      width: 40px;
+      height: 40px;
+      font-size: 16px;
+    }
+    .letters-guess span{
+      height: 40px;
+      width: 40px;
+      font-size: 20px;
+      text-align: center;
+      line-height: 40px;
+    }
+  }
