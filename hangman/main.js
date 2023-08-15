@@ -180,5 +180,8 @@ function endGame() {
 
   // Append To The Body
   document.body.appendChild(div);
-
+  // reload game
+  setTimeout(() => {
+    location.reload()
+  },2500);
 }
