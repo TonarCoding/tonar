@@ -202,7 +202,7 @@ header i{
 .videos{
     padding: 80px 0px;
     width: 100%;
-    min-height: calc(100vh - 56px);
+    height: 1500px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -279,14 +279,16 @@ header i{
     margin: 30px;
     color:white;
     font-size: 40px;
-    padding: 5px 20px;
+    width: fit-content;
+    height: fit-content;
     cursor: pointer;
     font-weight: 100;
 }
 .X-shorts:hover{
     background-color: #3d3d3d;
     border-radius: 100%;
-    padding: 5px 20px;
+    width: fit-content;
+    height: fit-content;
 }
 .logo-shorts{
     position: absolute;
@@ -299,4 +301,47 @@ header i{
     margin-right: 10px;
     font-weight: 400;
     color: white;
+}
+.video-container-shorts a{
+    text-decoration: none;
+}
+.video-container-shorts{
+    margin-top: 110px;
+    width: 200px;
+    height: 400px;
+    margin-left: 30px;
+}
+.video-container-shorts img{
+    width: 100%;
+    border-radius: 14px;
+    height: 400px;
+}
+.video-container-shorts h1{
+    color: white;
+    font-size: 18px;
+}
+.video-container-shorts h2{
+    font-size: 16px;
+    color: #555;
+}
+.show-more{
+    font-size: 20px;
+    color: #fff;
+    padding: 600px 20px;
+    transform: rotate(270deg);
+    margin-top: 30px;
+    cursor: pointer;
+    margin-left: -600px;
+    font-size: 30px;
+    font-weight: 100;
+}
+.show-more:hover{
+    background-color: #353535;
+}
+.shorts-hr-end{
+    margin: auto;
+    width: 100%;
+    border: 2px solid #353535;
+    position: absolute;
+    top: 1550px;
 }
