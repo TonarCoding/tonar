@@ -357,10 +357,17 @@ header i{
     border: 2px solid #353535;
     position: absolute;
     top: 600px;
+    left: 0;
 }
 .videos-shorts{
     display: flex;
     position: relative;
     top: 100px;
     right: 70px;
+}
+#video-more1{
+    position: relative;
+    top: 500px;
+    right: 1150px;
+    display: none;
 }
