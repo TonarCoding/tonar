@@ -310,7 +310,7 @@ section {
         padding-right: 10px;
     }
     .main-content h2{
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
     .main h2 span{
         margin-top: 8px;
@@ -344,14 +344,14 @@ section {
         margin-bottom: 20px;
     }
     .main h2{
-        font-size: 1.4em;
+        font-size: 1em;
     }
     .main h2 span{
         font-size: 2.7em;
         margin-top: 8px;
     }
     .main h3{
-        font-size: 1.5em;
+        font-size: 1.3em;
         margin: 5px 0 20px 0;
     }
 }
@@ -374,14 +374,14 @@ section {
         margin-bottom: 20px;
     }
     .main h2{
-        font-size: 1.4em;
+        font-size: 1em;
     }
     .main h2 span{
         font-size: 2.7em;
         margin-top: 8px;
     }
     .main h3{
-        font-size: 1.5em;
+        font-size: 1.3em;
         margin: 5px 0 20px 0;
     }
 }
@@ -404,14 +404,14 @@ section {
         font-size: 1em;
     }
     .main h2{
-        font-size: 1.2em;
+        font-size: 0.9em;
     }
     .main h2 span{
         font-size: 2.5em;
         margin-top: 5px;
     }
     .main h3{
-        font-size: 1.3em;
+        font-size: 1.1em;
         margin: 5px 0 20px 0;
     }
     .main-btn{
