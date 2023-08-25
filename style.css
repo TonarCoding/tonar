@@ -84,7 +84,6 @@ section {
     font-size: 3em;
     font-weight: 600;
 }
-
 .main h3 {
     color: #fff;
     font-size: 2em;
@@ -164,6 +163,9 @@ section {
     color: #3a6cf4;
     font-size: 8em;
     text-align: center;
+}
+.card .icon svg{
+    padding-top: 30px;
 }
 .info {
     text-align: center;
