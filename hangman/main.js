@@ -140,7 +140,6 @@ document.addEventListener("click", (e) => {
 
       // Add Class Wrong On The Draw Element
       theDraw.classList.add(`wrong-${wrongAttempts}`);
-
       // Play Fail Sound
       document.getElementById("fail").play();
 

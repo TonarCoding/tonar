@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth; 
+    scroll-behavior: smooth;
 }
 /* width */
 ::-webkit-scrollbar {
@@ -59,7 +59,6 @@ header {
 section {
     padding: 100px 200px;
 }
-
 .main {
     width: 100%;
     min-height: 100vh;
@@ -69,6 +68,7 @@ section {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 .main h2 {
@@ -83,6 +83,26 @@ section {
     color: #4e9eff;
     font-size: 3em;
     font-weight: 600;
+    position: relative;
+}
+.main h2 span::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000018;
+    border-left: 2px solid #4e9eff;
+    animation: typeAnim 6s steps(26) infinite;
+}
+@keyframes typeAnim{
+    40%,60%{
+        left: 100%;
+    }
+    100%{
+        left: 0;
+    }
 }
 .main h3 {
     color: #fff;
@@ -128,7 +148,6 @@ section {
     font-size: 1.7em;
     padding-right: 30px;
 }
-
 .title {
     display: flex;
     justify-content: center;
@@ -331,6 +350,14 @@ section {
     }
     .project-card{
         width: 23em;
+    }
+}
+@media (max-width: 412px){
+    .main h2 span{
+        font-size: 32px;
+    }
+    .main h3{
+        font-size: 20px;
     }
 }
 @media (max-width:384px){
